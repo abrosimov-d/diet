@@ -62,3 +62,9 @@ body {
 .dish {
     text-align: end;
 }
+
+.icon {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}

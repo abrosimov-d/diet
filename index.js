@@ -3,7 +3,6 @@ import Toolbar from "./app/toolbar.js"
 //https://picnicss.com/documentation
 
 window.onload = () => {
-    console.log('hello')
 	let appElement = document.querySelector('.app')
 	let dayCard = new DayCard();
 	let toolbar = new Toolbar(dayCard);

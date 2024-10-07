@@ -9,7 +9,7 @@ export default function data2(index) {
     ]
 
     let dishes2 = [
-        "Ланч|100", 
+        "Чай|100", 
 
     ]
    
