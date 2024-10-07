@@ -40,14 +40,25 @@ body {
     align-self: center;
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .menu-line {
     display: flex;
     flex-direction: row;
-    gap: 10px;
     font-size: 1.2em;
     justify-content: space-between;
+    align-items: center;
 }
 
 .time {
     color: gray;
+    font-size: 0.7em;
+}
+
+.dish {
+    text-align: end;
 }
