@@ -1,0 +1,19 @@
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.daycard {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    color: gray;
+}
