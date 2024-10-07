@@ -23,7 +23,7 @@ export default class DayCard {
     }
 
     renderInnerHtml() {
-        return `<div>${this.beautyfyDate(this.currentDate)}</div>
+        return `<div class="current-date">${this.beautyfyDate(this.currentDate)}</div>
             <div class="workdata">${this.getWorkData(this.getDayIndex(this.currentDate))}</div>
             ${this.renderMenu(this.getDayIndex(this.currentDate))}`
     }
