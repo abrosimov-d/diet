@@ -25,7 +25,7 @@ export default function data2(index) {
     ]
 
     let dishes5 = [
-        "чай|300",
+        "Чай|300",
         
     ]
 

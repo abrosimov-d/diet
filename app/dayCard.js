@@ -39,7 +39,7 @@ export default class DayCard {
 	}
 
     getDayIndex(date) {
-        let firstDay = new Date(2024, 9, 7)
+        let firstDay = new Date(2024, 9, 8)
         return Math.floor((date - firstDay) / (1000 * 60 * 60 * 24))
     }
 
