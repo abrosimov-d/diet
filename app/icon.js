@@ -4,6 +4,6 @@ export default class Icon {
     }
 
     render() {
-        return `<img class="icon" src="./icon.jpg"></img>`
+        return `<img class="icon" src="./app/icon.jpg"></img>`
     }
 }

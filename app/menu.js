@@ -24,7 +24,6 @@ export default class Menu {
         let dishes = ''
         for (let i = 0; i < eatings.length; i++) {
             dishes = this.getData()[i].title
-            console.log(dishes)
             if (dishes.indexOf('|') > 0) {
                 dishes = dishes.replace(/\|([^,]+)/g, '<sup>$1</sup>')
             }
@@ -36,7 +35,7 @@ export default class Menu {
 
     getEatings3() {
         let result = ''
-        let eatings = ['08:00<sup>звтр</sup>', '10:30<sup>ланч</sup> ', '13:00<sup>обед</sup>', '16:00<sup>плдн</sup>', '18:00<sup>ужин</sup>']
+        let eatings = ['08:00<sup>звтр</sup>', '10:30<sup>ланч</sup>', '13:00<sup>обед</sup>', '16:00<sup>плдн</sup>', '18:00<sup>ужин</sup>']
         let dishes = ''
         for (let i = 0; i < eatings.length; i++) {
             //console.log(this.getData()[i].meals)
@@ -46,8 +45,6 @@ export default class Menu {
         }
         return result;
     }
-
-
 
     getData() {
         return data2(this.index);

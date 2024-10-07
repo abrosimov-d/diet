@@ -1,4 +1,5 @@
 import DayCard from "./app/dayCard.js"
+import Icon from "./app/icon.js";
 import Toolbar from "./app/toolbar.js"
 //https://picnicss.com/documentation
 
@@ -6,7 +7,8 @@ window.onload = () => {
 	let appElement = document.querySelector('.app')
 	let dayCard = new DayCard();
 	let toolbar = new Toolbar(dayCard);
-	appElement.innerHTML = toolbar.render() + dayCard.render();
+	let icon = new Icon();
+	appElement.innerHTML = toolbar.render() + dayCard.render() + icon.render();
 	dayCard.init();
 	toolbar.init();
 }

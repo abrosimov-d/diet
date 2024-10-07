@@ -47,7 +47,7 @@ export default class DayCard {
         let months = ['янв', 'фев', 'мар', 'апр', 'май', 'июн', 'июл', 'авг', 'сент', 'окт', 'ноя', 'дек',]
         let weekDays = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб']
         let result = ''
-        result = `${date.getDate()} ${months[date.getMonth()]} ${weekDays[date.getDay()]}`
+        result = `${date.getDate()} ${months[date.getMonth()]}<sup>${weekDays[date.getDay()]}</sup>`
         return result;
     }
 

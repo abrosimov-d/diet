@@ -7,8 +7,8 @@ export default class Toolbar {
 
     render() {
         return `<div class="toolbar">
-            <button class="toolbar-prev toolbar-button">.</button>
-            <button class="toolbar-next toolbar-button">.</button>
+            <button class="toolbar-prev toolbar-button"><</button>
+            <button class="toolbar-next toolbar-button">></button>
         </div>`
     }
 
